@@ -77,7 +77,7 @@
 #define TWIM_PIN_INIT(_pin, _drive) nrf_gpio_cfg((_pin),                     \
                                                  NRF_GPIO_PIN_DIR_INPUT,     \
                                                  NRF_GPIO_PIN_INPUT_CONNECT, \
-                                                 NRF_GPIO_PIN_PULLUP,        \
+                                                 NRF_GPIO_PIN_NOPULL,        \
                                                  (_drive),                   \
                                                  NRF_GPIO_PIN_NOSENSE)
 
